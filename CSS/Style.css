@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+/* Projetos:
+    Box model
+*/
+
+
+body{
+    background-color: #EFEFEF;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: cursive; 
+    color: #A6A6A6;
+}
+
+
+/* Header (Utilizada para identificar a cabeça do site.. O próprio cabeçalho. Não confunda com HEAD do documento)
+ NAV  
+Utilizada para referenciar grupos de links importantes como os menus.
+*/
+
+/*  *********************CABEÇALHO***************************** */
+header{ 
+
+    background-color: #727272;
+   
+ }
+
+nav {
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content:space-between;
+}
+/* nav é, é o titulo esquerdo ESTILO UX */
+nav a{
+    padding: 25px 20px;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    transition: background-color 0.6s ; border-radius: 10%;
+    /* border: 3px solid white; */
+    justify-content: space-between;
+    
+}
+
+nav a:hover{
+    
+    background-color: #878787 ;
+    
+}
+
+h1{ font-family: 'Open Sans', sans-serif; 
+    color: white;
+    font-weight: 100;
+    align-items: center;
+  
+
+}
+
+h1 span { font-weight: 300;
+    font-family: cursive;
+    font-style:italic ;
+     }
+/* ****************CABEÇALHO*********************** */
+
+
+
+main { 
+    display: flex;
+    /* flex-direction: row; */
+     /* align-items: stretch; */
+     
+     justify-content: space-between;
+     /* padding: 20px 150px;   */
+     max-width: 1200px;
+     width: 73%;
+     /* height: 800px;  */
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+
+     background-color: transparent;
+    
+}
+
+#conteudo {
+
+width: 73%;
+background-color: white;
+;
+
+
+
+}
+
+aside{
+ 
+ width: 25%;
+
+}
+
+img {  width: 100%;
+    
+
+
+}
+ 
+
+h2{ margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font: size 16px;
+    font-weight: 400;
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+/* *********************** ASIDE************************ */
+    
+.aside-box {
+    background-color: white;
+    padding-bottom: 20px;
+
+}
+ .aside-box h3 {
+     font-size: 16px;
+     text-transform: uppercase;
+     border-bottom:solid 1px #878787; 
+    
+     text-align: center;
+     padding-bottom: 3px;
+     padding-top: 10px;
+     font-weight: 400;
+ }
+
+ .aside-box form{
+     /* border: solid 1px red; */
+     margin-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;display: flex;
+     justify-content: space-between;
+    }
+    .aside-box form input {
+        width: 80%;
+        height: 40px;
+        border-radius: 5px;
+        border-color: #A6A6A6;
+        color: #A6A6A6;
+        max-width: initial;
+
+    }
+
+    .aside-box form button {
+        width: 17%;
+        border: solid 1px; 
+        background-color:#A6A6A6;
+        transition: background-color 0.6s;
+        border-radius: 5px;
+    }
+    .aside-box form button i {
+        color: white;
+        font-size: 20px;  
+      }
+
+    .aside-box {
+        margin-bottom: 20px;
+        
+
+    }
+    .aside-box ul{
+        /* border: solid 1px #A6A6A6;  */
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    .aside-box li {
+        /* border: solid 1px #A6A6A6; */
+        margin-bottom: 10px;
+    }
+
+    /* .aside-box ul li{ 
+        margin-left: 15px;
+        margin-right: 10px; 
+    }*/
+    .aside-box ul li a {
+        text-decoration: none;
+        color: #A6A6A6;
+    }
+    .aside-box ul li a :hover{
+        text-decoration: underline;
+
+    }
+        
+.aside-box#email-market {
+        border:  solid 0.5px #A6A6A6;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: initial;
+    }
+
+  .header-box{
+    justify-content: space-between; /* LINHA */
+    align-items: center; /* COLUNA */
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
